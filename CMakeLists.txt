@@ -24,5 +24,10 @@ else()
 endif()
 
 add_subdirectory($ENV{GEODE_SDK} ${CMAKE_CURRENT_BINARY_DIR}/geode)
+message(STATUS "=== DEBUG GEODE VERSION ===")
+message(STATUS "GEODE_VERSION=${GEODE_VERSION}")
+message(STATUS "GEODE_VERSION_FULL=${GEODE_VERSION_FULL}")
+message(STATUS "GEODE_SDK=$ENV{GEODE_SDK}")
+message(STATUS "=== END DEBUG ===")
 
 setup_geode_mod(${PROJECT_NAME})
