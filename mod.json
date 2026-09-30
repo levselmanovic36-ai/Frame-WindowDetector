@@ -1,0 +1,11 @@
+{
+    "geode": "v5.10.1",
+    "gd": {
+        "android": "2.2081"
+    },
+    "id": "lev.frame-window-detector",
+    "name": "Frame Window Detector",
+    "version": "v0.1.0",
+    "developer": "Lev",
+    "description": "Experimental 240 TPS frame counter for Geometry Dash."
+}
