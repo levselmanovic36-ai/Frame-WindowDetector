@@ -36,7 +36,7 @@ class $modify(FrameWindowPlayLayer, PlayLayer) {
         if (!m_fields->label)
             return;
 
-        if (m_started && !m_playerDied) {
+        {
             m_fields->t240 += static_cast<double>(dt) * 240.0;
         }
 
